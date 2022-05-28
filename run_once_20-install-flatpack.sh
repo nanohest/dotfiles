@@ -1,5 +1,6 @@
 #!/bin/sh
-flatpak install \
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install --noninteractive flathub \
 com.getmailspring.Mailspring \
 com.github.tchx84.Flatseal \
 com.slack.Slack   \
@@ -12,4 +13,3 @@ org.gabmus.whatip \
 org.gnome.DejaDup \
 org.gtk.Gtk3theme.Adwaita-dark \
 org.signal.Signal
-
