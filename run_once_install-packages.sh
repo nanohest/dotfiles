@@ -21,7 +21,8 @@ sudo dnf install --assumeyes \
  dnf-plugins-core \
  powertop \
  bolt \
- brave-browser
+ brave-browser \
+ helm
 
  # '@Development tools' cmake gcc-c++ libxcb-devel cmake freetype-devel fontconfig-devel libxcb-devel libxkbcommon-devel g++
  # brave-browser
