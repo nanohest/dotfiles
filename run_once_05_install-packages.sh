@@ -27,5 +27,6 @@ sudo dnf install --assumeyes \
  gopass \
  kubernetes-client \
  dkms \
- kernel-devel
+ kernel-devel \
+ https://github.com/git-town/git-town/releases/download/v7.7.0/git-town_7.7.0_linux_intel_64.rpm
 
