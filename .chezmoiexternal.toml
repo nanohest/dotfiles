@@ -8,3 +8,7 @@
   type = "file"
   url = "https://raw.githubusercontent.com/ahmetb/kubectl-aliases/master/.kubectl_aliases.fish"
   refreshPeriod = "168h"
+[".local/share/fonts/fira-mono/fira-mono-complete.otf"]
+  type = "file"
+  url = "https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/FiraMono/Regular/complete/Fura%20Mono%20Regular%20Nerd%20Font%20Complete.otf"
+  refreshPeriod = "168h"
