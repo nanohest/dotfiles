@@ -4,3 +4,7 @@
   exact = true
   stripComponents = 1
   refreshPeriod = "168h"
+[".config/fish/aliases/kubectl_aliases.fish"]
+  type = "file"
+  url = "https://raw.githubusercontent.com/ahmetb/kubectl-aliases/master/.kubectl_aliases.fish"
+  refreshPeriod = "168h"
