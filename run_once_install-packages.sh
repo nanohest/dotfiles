@@ -24,7 +24,8 @@ sudo dnf install --assumeyes \
  brave-browser \
  helm \
  util-linux-user \
- gopass
+ gopass \
+ kubernetes-client
 
  # '@Development tools' cmake gcc-c++ libxcb-devel cmake freetype-devel fontconfig-devel libxcb-devel libxkbcommon-devel g++
  # brave-browser
