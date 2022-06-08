@@ -24,4 +24,3 @@ kubectl completion fish | source
 
 starship init fish | source
 
-colorscripts -r
