@@ -1,0 +1,6 @@
+[".local/share/colorscripts"]
+  type = "archive"
+  url = "https://gitlab.com/dwt1/shell-color-scripts/-/archive/master/shell-color-scripts-master.tar.gz"
+  exact = true
+  stripComponents = 1
+  refreshPeriod = "168h"

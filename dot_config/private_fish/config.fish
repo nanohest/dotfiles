@@ -23,3 +23,5 @@ test -f ~/.config/fish/aliases/kubectl_aliases.fish && source ~/.config/fish/ali
 kubectl completion fish | source
 
 starship init fish | source
+
+colorscripts -r
