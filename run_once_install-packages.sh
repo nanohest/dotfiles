@@ -25,8 +25,7 @@ sudo dnf install --assumeyes \
  helm \
  util-linux-user \
  gopass \
- kubernetes-client
+ kubernetes-client \
+ dkms \
+ kernel-devel
 
- # '@Development tools' cmake gcc-c++ libxcb-devel cmake freetype-devel fontconfig-devel libxcb-devel libxkbcommon-devel g++
- # brave-browser
- # k6
