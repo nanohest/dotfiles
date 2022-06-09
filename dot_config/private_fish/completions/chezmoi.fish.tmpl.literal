@@ -1,2 +1,0 @@
-{{ output "chezmoi" completions" "fish" }}
-
