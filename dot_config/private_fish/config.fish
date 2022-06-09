@@ -18,6 +18,7 @@ alias atom="flatpak run io.atom.Atom"
 alias kubectx kubectl-ctx
 alias kubens kubectl-ns
 alias ls exa
+alias docker podman
 
 test -f ~/.config/fish/aliases/kubectl_aliases.fish && source ~/.config/fish/aliases/kubectl_aliases.fish
 
