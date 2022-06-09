@@ -3,7 +3,7 @@ fish_add_path -m /var/lib/snapd/snap/bin
 fish_add_path -m ~/.krew/bin
 fish_add_path -m ~/.local/bin
 
-if [ -f '~/.tfenv/bin/' ]; . 'fish_add_path -m ~/.tfenv/bin'; end
+if [ -d ~/.tfenv/bin/ ]; fish_add_path -m ~/.tfenv/bin; end
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/opt/google-cloud-sdk/path.fish.inc' ]; . '/opt/google-cloud-sdk/path.fish.inc'; end
