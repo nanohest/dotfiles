@@ -22,4 +22,7 @@
   url = "https://github.com/tfutils/tfenv/archive/master.tar.gz"
   refreshPeriod = "168h"
   stripComponents = 1
-
+[".config/fish/completions/kubectx.fish"]
+  type = "file"
+  url = "https://raw.githubusercontent.com/ahmetb/kubectx/master/completion/kubectx.fish"
+  refreshPeriod = "168h"

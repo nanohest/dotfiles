@@ -10,4 +10,4 @@ begin
   set -e KREW; set -e temp_dir
 end
 
-kubectl krew install ctx ns
+kubectl krew install ctx ns neat

@@ -12,4 +12,6 @@ net.cozic.joplin_desktop \
 org.gabmus.whatip \
 org.gnome.DejaDup \
 org.gtk.Gtk3theme.Adwaita-dark \
-org.signal.Signal
+org.signal.Signal \
+com.getpostman.Postman
+
