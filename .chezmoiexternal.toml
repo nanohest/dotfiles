@@ -26,3 +26,11 @@
   type = "file"
   url = "https://raw.githubusercontent.com/ahmetb/kubectx/master/completion/kubectx.fish"
   refreshPeriod = "168h"
+[".config/fish/completions/kubens.fish"]
+  type = "file"
+  url = "https://raw.githubusercontent.com/ahmetb/kubectx/master/completion/kubens.fish"
+  refreshPeriod = "168h"
+["Downloads/aws"]
+  type = "archive"
+  url = "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip"
+  stripComponents = 1
