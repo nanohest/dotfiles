@@ -19,7 +19,7 @@ alias kubectx kubectl-ctx
 alias kubens kubectl-ns
 alias ls exa
 alias docker podman
-
+alias wrk="cd ~/work" 
 test -f ~/.config/fish/aliases/kubectl_aliases.fish && source ~/.config/fish/aliases/kubectl_aliases.fish
 
 kubectl completion fish | source
