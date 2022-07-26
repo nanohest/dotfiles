@@ -28,5 +28,5 @@ sudo dnf install --assumeyes \
  kubernetes-client \
  dkms \
  kernel-devel \
- https://github.com/git-town/git-town/releases/download/v7.7.0/git-town_7.7.0_linux_intel_64.rpm
-
+ https://github.com/git-town/git-town/releases/download/v7.7.0/git-town_7.7.0_linux_intel_64.rpm \
+ https://github.com/displaylink-rpm/displaylink-rpm/releases/download/v5.6.0/fedora-36-displaylink-1.11.0-1.x86_64.rpm
