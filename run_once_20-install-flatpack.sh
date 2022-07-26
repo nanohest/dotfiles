@@ -13,5 +13,7 @@ org.gabmus.whatip \
 org.gnome.DejaDup \
 org.gtk.Gtk3theme.Adwaita-dark \
 org.signal.Signal \
-com.getpostman.Postman
+com.getpostman.Postman \
+ch.protonmail.protonmail-import-export-app \
+ch.protonmail.protonmail-bridge
 
