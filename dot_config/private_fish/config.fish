@@ -3,12 +3,14 @@ fish_add_path -m /var/lib/snapd/snap/bin
 fish_add_path -m ~/.krew/bin
 fish_add_path -m ~/.local/bin
 fish_add_path -m ~/.tfenv/bin
+fish_add_path -m /usr/local/go/bin
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/opt/google-cloud-sdk/path.fish.inc' ]; . '/opt/google-cloud-sdk/path.fish.inc'; end
 
 set -xg EDITOR /usr/bin/nvim
 
+abbr gnp 'git new-pull-request'
 alias pbcopy wl-copy
 alias pbpaste wl-paste
 alias ssh="kitty +kitten ssh"

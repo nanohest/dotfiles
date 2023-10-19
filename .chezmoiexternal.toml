@@ -34,3 +34,8 @@
   type = "archive"
   url = "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip"
   stripComponents = 1
+["Downloads/terraform-docs"]
+  type = "archive"
+  url = "https://github.com/terraform-docs/terraform-docs/releases/download/v0.16.0/terraform-docs-v0.16.0-linux-amd64.tar.gz"
+  stripComponents = 0
+
