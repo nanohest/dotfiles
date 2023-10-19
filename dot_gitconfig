@@ -1,6 +1,7 @@
 [user]
 	name = Kristian Østergaard Martensen
-	email = kristian@efio.dk
+	email = kristian@techchapter.com
+	signingkey = /home/kristian/.ssh/id_ed25519.pub
 [alias]
         st = status
         cm = commit --message
@@ -19,3 +20,8 @@
 	rebase = false
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+
