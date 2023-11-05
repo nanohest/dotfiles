@@ -4,6 +4,7 @@ fish_add_path -m ~/.krew/bin
 fish_add_path -m ~/.local/bin
 fish_add_path -m ~/.tfenv/bin
 fish_add_path -m /usr/local/go/bin
+fish_add_path -m ~/.pulumi/bin
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/opt/google-cloud-sdk/path.fish.inc' ]; . '/opt/google-cloud-sdk/path.fish.inc'; end
