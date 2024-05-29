@@ -29,4 +29,5 @@ sudo dnf install --assumeyes \
  dkms \
  kernel-devel \
  https://github.com/git-town/git-town/releases/download/v7.7.0/git-town_7.7.0_linux_intel_64.rpm \
- https://github.com/displaylink-rpm/displaylink-rpm/releases/download/v5.8.0/fedora-38-displaylink-1.14.1-1.x86_64.rpm
+ https://github.com/displaylink-rpm/displaylink-rpm/releases/download/v5.8.0/fedora-38-displaylink-1.14.1-1.x86_64.rpm \
+ git-delta
