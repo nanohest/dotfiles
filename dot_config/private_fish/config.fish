@@ -6,7 +6,7 @@ fish_add_path -m ~/.tfenv/bin
 fish_add_path -m ~/.pulumi/bin
 fish_add_path -m /usr/local/go/bin
 fish_add_path -m ~/go/bin
-
+fish_add_path -m ~/.bin
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/opt/google-cloud-sdk/path.fish.inc' ]; . '/opt/google-cloud-sdk/path.fish.inc'; end
 
@@ -19,7 +19,6 @@ alias pbpaste wl-paste
 alias ssh="kitty +kitten ssh"
 alias icat="kitty +kitten icat"
 alias mdless='mdcat --paginate'
-alias atom="flatpak run io.atom.Atom"
 alias kubectx kubectl-ctx
 alias kubens kubectl-ns
 alias ls exa
