@@ -16,13 +16,10 @@ sudo rpm-ostree install --idempotent --allow-inactive --assumeyes \
  wl-clipboard \
  powertop \
  helm \
- util-linux-user \
  gopass \
+ golang \
  kubernetes-client \
- dkms \
- kernel-devel \
  https://github.com/git-town/git-town/releases/download/v14.2.2/git-town_linux_intel_64.rpm \
- https://github.com/displaylink-rpm/displaylink-rpm/releases/download/v6.0.0/fedora-40-displaylink-1.14.4-2.github_evdi.x86_64.rpm \
  git-delta
 
 curl -sS https://starship.rs/install.sh | sh
