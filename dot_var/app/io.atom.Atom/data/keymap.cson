@@ -1,9 +1,0 @@
-'atom-text-editor':
-  'cmd-x': 'core:cut'
-  'cmd-c': 'core:copy'
-  'cmd-v': 'core:paste'
-
-'body':
-  'ctrl-{': 'window:focus-pane-on-left'
-  'ctrl-}': 'window:focus-pane-on-right'
-  'cmd-w': 'core:close'
