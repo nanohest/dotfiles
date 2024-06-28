@@ -5,7 +5,9 @@
 [alias]
         st = status
         cm = commit --message
+	cam = commit --all --message
         co = checkout
+	rs = restore --staged
 	append = town append
 	hack = town hack
 	kill = town kill
