@@ -1,0 +1,15 @@
+packages:
+  archInit:
+    flatpak
+    paru
+  all:
+    1password
+    neovim
+    starship
+    git-delta
+    git-town
+    htop
+    kitty
+    podman
+    yazi
+    ttf-firacode-nerd

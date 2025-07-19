@@ -1,0 +1,7 @@
+#!/usr/bin/env zsh
+
+{{ $archVariants := list "arch" "cachyos" }} 
+{{ if has .chezmoi.osRelease.id $archVariants }}
+pacman -S {{ .packages.archInit }}
+paru -S {{ .packages.all }}
+{{ end }}
