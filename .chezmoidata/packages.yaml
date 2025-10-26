@@ -13,3 +13,23 @@ packages:
     podman
     yazi
     ttf-firacode-nerd
+    nerd-fonts
+    zed
+    tofuenv
+    fortune-mod
+    cowsay
+    lolcat
+    xdg-desktop-portal-gtk
+    go
+    kubectl
+    krew
+    fzf
+  flatpak:
+    flathub:
+      com.slack.Slack
+      com.github.tchx84.Flatseal
+  opentofu:
+    latest
+  krew:
+    ctx
+    ns

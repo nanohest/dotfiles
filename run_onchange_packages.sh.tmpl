@@ -2,6 +2,13 @@
 
 {{ $archVariants := list "arch" "cachyos" }} 
 {{ if has .chezmoi.osRelease.id $archVariants }}
-pacman -S {{ .packages.archInit }}
-paru -S {{ .packages.all }}
+sudo pacman -S --needed {{ .packages.archInit }}
+paru -S --needed {{ .packages.all }}
 {{ end }}
+
+flatpak install flathub {{ .packages.flatpak.flathub }}
+
+sudo tofuenv install {{ .packages.opentofu }}
+sudo tofuenv use {{ .packages.opentofu }}
+
+kubectl krew install {{ .packages.krew }}
